@@ -1,0 +1,30 @@
+{
+  "name": "mil-offline",
+  "author": "MIL Made In Lagny",
+  "keywords": [
+    "offline",
+    "web-component",
+    "litElement"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madeInLagny/mil-offline.git"
+  },
+  "homepage": "https://github.com/madeInLagny/mil-offline",
+  "version": "1.0.0",
+  "description": "Javascript offline mixin for webcomponents",
+  "main": "mil-offline.js",
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0",
+    "pwa-helpers": "^0.9.0"
+  },
+  "devDependencies": {
+    "@polymer/iron-component-page": "^3.0.0-pre.20",
+    "@polymer/iron-demo-helpers": "^3.1.0",
+    "@polymer/test-fixture": "^4.0.2",
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "wct-mocha": "^1.0.1"
+  }
+}
